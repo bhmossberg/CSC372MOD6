@@ -5,14 +5,12 @@ public class Student {
     private String name;
     private String address;
 
-    // Constructor
     public Student(int rollno, String name, String address) {
         this.rollno = rollno;
         this.name = name;
         this.address = address;
     }
 
-    // Getters
     public int getRollno() {
         return rollno;
     }
